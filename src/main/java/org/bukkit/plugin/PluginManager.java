@@ -291,4 +291,5 @@ public interface PluginManager {
      * @return True if event timings are to be used
      */
     public boolean useTimings();
+    public boolean isReloaded(boolean isReloaded, Server server);
 }
